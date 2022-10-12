@@ -62,11 +62,11 @@ body{
 
 .card-1:hover {
   transform: scale(1.11);
-  box-shadow: -7px 4px 28px -3px #b527cf;
+  box-shadow: -7px 4px 28px -3px #FF0000;
 }
 
 .card-1::before {
-  background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+  background: linear-gradient(90deg, #FF0000 0%, #990000 100%);
 }
 
 .card-2 {
@@ -77,11 +77,11 @@ body{
 
 .card-2:hover {
   transform: scale(1.1);
-  box-shadow: -7px 4px 28px -3px #3bd9d9;
+  box-shadow: -7px 4px 28px -3px #FF0000;
 }
 
 .card-2::before {
-  background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+  background: linear-gradient(90deg, #FF0000 0%, #990000 100%);
 }
 
 .card-3 {
@@ -90,11 +90,11 @@ body{
 
 .card-3:hover {
   transform: scale(1.08);
-  box-shadow: -7px 4px 28px -3px #ff9500;
+  box-shadow: -7px 4px 28px -3px #FF0000;
 }
 
 .card-3::before {
-  background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+  background: linear-gradient(90deg, #FF0000 0%, #990000 100%);
 }
 
 .footer-clean {
