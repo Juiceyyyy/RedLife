@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Redlife</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -83,6 +85,61 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <section class="home-section">
+
+    
+        <div class="home-content">
+          <div class="overview-boxes">
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Total Donors</div>
+                <div class="number">40,876</div>
+                <div class="indicator">
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span class="text">Up from yesterday</span>
+                </div>
+              </div>
+              <i class='bx bx-cart-alt cart'></i>
+            </div>
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Total Blood unit</div>
+                <div class="number">500 L</div>
+                <div class="indicator">
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span class="text">Up from yesterday</span>
+                </div>
+              </div>
+              <i class='bx bxs-cart-add cart two' ></i>
+            </div>
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Total Blood banks</div>
+                <div class="number">876</div>
+                <div class="indicator">
+                  <i class='bx bx-up-arrow-alt'></i>
+                  <span class="text">Up from yesterday</span>
+                </div>
+              </div>
+              <i class='bx bx-cart cart three' ></i>
+            </div>
+            <div class="box">
+              <div class="right-side">
+                <div class="box-topic">Total Return</div>
+                <div class="number">11,086</div>
+                <div class="indicator">
+                  <i class='bx bx-down-arrow-alt down'></i>
+                  <span class="text">Down From Today</span>
+                </div>
+              </div>
+              <i class='bx bxs-cart-download cart four' ></i>
+            </div>
+          </div>
+    
+         
+          </div>
+        </div>
+      </section>
       <div class="card-group" style="padding:60px ;">
         <div class="card card-1">
           <img src="https://www.graphic.com.gh/images/2022/jun/14/BloodDonation.jpeg" style="height:300px;width: 400px; margin:35px"class="card-img-top" alt="...">
@@ -111,6 +168,20 @@
           </div>
         </div>
       </div>
+
+    
+      <script>
+       let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function() {
+      sidebar.classList.toggle("active");
+      if(sidebar.classList.contains("active")){
+      sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+    }else
+      sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }
+     </script>
+      <hr>
       <div class="footer-clean">
         <footer>
             <div class="container">
