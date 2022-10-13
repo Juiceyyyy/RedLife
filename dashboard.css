@@ -112,23 +112,32 @@ nav .profile-details i{
   align-items: center;
   justify-content: center;
   width: calc(100% / 4 - 15px);
-  background: #fff;
+  background:linear-gradient(90deg, #d96060 0%, #c93232 100%);
   padding: 15px 14px;
+
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.overview-boxes .box:hover{
+  transform: scale(1.1);
+  box-shadow: -7px 4px 28px -3px #FF0000;
+  
 }
 .overview-boxes .box-topic{
   font-size: 20px;
   font-weight: 500;
+  color: #fff;
 }
 .home-content .box .number{
   display: inline-block;
   font-size: 35px;
   margin-top: -6px;
   font-weight: 500;
+  color: #fff;
 }
 .home-content .box .indicator{
   display: flex;
+  color: #fff;
   align-items: center;
 }
 .home-content .box .indicator i{
@@ -153,7 +162,7 @@ nav .profile-details i{
   font-size: 32px;
   height: 50px;
   width: 50px;
-  background: #cce5ff;
+  background: #FF0000;
   line-height: 50px;
   text-align: center;
   color: #66b0ff;
