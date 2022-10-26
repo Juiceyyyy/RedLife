@@ -4,6 +4,9 @@
     margin-left: 447px;
     margin-top: 80px;
 }
+.dropdown{
+    margin-left: 10px;
+}
 .panel-danger {
     border-color: #ebccd1;
 }
