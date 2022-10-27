@@ -8,7 +8,10 @@
     margin-left: 10px;
 }
 .panel-danger {
-    border-color: #ebccd1;
+    border-color: #cc2a45;
+}
+.alert{
+    font-size: 25px;
 }
 .panel {
     margin-bottom: 20px;
