@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   width: calc(100% / 4 - 15px);
-  background: linear-gradient(90deg, #ffacac 0%, #f57e7e 100%);
+  background: linear-gradient(90deg, #FF5F6D 0%, #FFC371 100%);
   padding: 15px 14px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
