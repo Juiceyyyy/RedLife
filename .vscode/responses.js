@@ -2,8 +2,13 @@ function getBotResponse(input) {
      // Simple responses
     if (input == "hello") {
         return "Hello there! how can I help you";
-    } 
-    
+    }
+    else if (input == "Hii") {
+        return "Hello there! how can I help you";
+    }
+    else if (input == "hi") {
+        return "Hello there! how can I help you";
+    }
     else if (input == "bye") {
         return "Talk to you later!";
     }
@@ -22,7 +27,6 @@ function getBotResponse(input) {
     else if(input == "nearby blood banks"){
         return "you have to register/login first on our page as a donor and then can check for nearby available blood banks.";
     }
-
     else if(input == "how to receive blood?"){
         return "to receive you have to check for blood availability on our website.";
     }
