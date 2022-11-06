@@ -3,6 +3,7 @@ function getBotResponse(input) {
     if (input == "hello") {
         return "Hello there! how can I help you";
     } 
+    
     else if (input == "bye") {
         return "Talk to you later!";
     }
