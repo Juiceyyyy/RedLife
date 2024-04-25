@@ -8,7 +8,7 @@
     "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joshua Menezes",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
