@@ -24,7 +24,7 @@ Donors can create an account, update their information, and view nearby blood ba
 *Donor login page*
 <br><br><br>
 ![Image 6](/Redlife_images/6_donorHome_donorname_at_link.png)
-*Home page after Donor Registration *
+*Home page after Donor Registration*
 <br><br><br>
 ![Image 7](/Redlife_images/7_blood_availability_bblist.png)
 *List of all Registered blood bank at our website*
