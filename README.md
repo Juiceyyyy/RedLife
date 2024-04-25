@@ -43,6 +43,7 @@ Donors can create an account, update their information, and view nearby blood ba
 <br><br><br>
 ![Image 12](/Redlife_images/12_BBportal_inventory.png)
 *Inventory view for Blood bank only after registration*
+<br><br><br>
 ![Image 1](/Redlife_images/1_terminal.png)
 *Terminal*
 <br><br><br>
